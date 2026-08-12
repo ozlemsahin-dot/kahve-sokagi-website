@@ -1,0 +1,89 @@
+.about-section {
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.section-subtitle {
+    color: #d4a373;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-content h2 {
+    font-size: 2.8rem;
+    color: #2c1810;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+.about-content h2 span {
+    color: #d4a373;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* İstatistik Alanı */
+.about-stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.stat-item h4 {
+    font-size: 1.8rem;
+    color: #2c1810;
+}
+
+.stat-item p {
+    font-size: 0.9rem;
+    color: #d4a373;
+    font-weight: 600;
+}
+
+/* Görsel Alanı ve Rozet */
+.about-image {
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 0px #f4ece6; /* Dekoratif arka gölge */
+}
+
+.image-experience-badge {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    background: #d4a373;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 968px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-stats {
+        justify-content: center;
+    }
+    .about-image {
+        margin-top: 40px;
+    }
+}

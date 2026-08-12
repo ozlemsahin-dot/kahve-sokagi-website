@@ -1,0 +1,35 @@
+/* Menü Sayfası İçin CSS */
+.menu-section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.menu-category {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 45%;
+    min-width: 300px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 5px;
+}
